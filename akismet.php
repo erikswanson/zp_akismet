@@ -206,7 +206,7 @@ class SpamFilter {
 		$mail_err_msg = zp_mail($subject, $body, $mails, array());
 		if (!empty($mail_error_msg)) {
 			debugLog('Error sending mail to all admins: ' . $mail_err_msg);
-			zp_error('The Akismet plugin encountered an error and could failed to alert the admins about the error.', false);
+			zp_error('The Akismet plugin encountered an error and failed to alert the admins about the error.', false);
 		}
 	}
 }
