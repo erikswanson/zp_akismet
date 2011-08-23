@@ -1,0 +1,5 @@
+Copyright (C) 2011 Erik Swanson
+
+For simplicity, this plugin is licensed under the same terms as ZenPhoto itself, the GNU General Public License version 2 (or later). (See COPYING.txt)
+
+If the developers of ZenPhoto ever decide to adopt another OSI-approved free software license, please send an email to zp_akismet@erik.swanson.name and I will be happy to re-license this plugin to follow suit.

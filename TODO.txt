@@ -1,0 +1,15 @@
+This plugin should allow comments on receiver classes other than images, with albums being the most important.
+
+The timeout used when communicating with the Akismet server should be configurable.
+
+This plugin should send an appropriate User Agent to the Akismet servers, for accountability in the event of a programming error.
+
+The plugin should somehow declare that it requires libcurl and be impossible to activate if libcurl not installed.
+
+The behavior of sending emails to administrators when an error is encountered should be configurable.
+
+The admin interface should validate the API key and not allow the administrator to activate this plugin without a valid API key.
+
+The function to mass-email administrators should be factored out in ZenPhoto iself and then removed from this plugin.
+
+As a far-future goal, the comment administration interface should support false-negative and false-positive feedback. This will require upstream modification of the SpamFilter class interface.
